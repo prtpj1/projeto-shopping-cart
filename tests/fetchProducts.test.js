@@ -19,7 +19,7 @@ describe('1 - Test the function fecthProducts', () => {
 
       expect(fetch).toHaveBeenCalledWith('https://api.mercadolibre.com/sites/MLB/search?q=computador');
     });
-    it('Test if the function fetchProducts(\'computador\') return is a data structure equal to object computadorSearch been imported',
+    it('Test if the function fetchProducts(\'computador\') return is a data structure equal to object \'computadorSearch\' been imported',
     async () => {
       const products = await fetchProducts('computador');
 
