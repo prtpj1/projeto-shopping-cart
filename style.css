@@ -114,6 +114,15 @@ body {
   text-align: center;
 }
 
+.item .item__price {
+  display: flex;
+  align-items: left;
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
 .item .item__image {
   width: 100%;
 }
@@ -138,6 +147,13 @@ body {
 .cart .cart__items {
   height: 500px;
   overflow-y: scroll;
+}
+
+.cart .cart__item {
+  margin: 15px 10px;
+  padding: 5px;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
 }
 
 .empty-cart {
