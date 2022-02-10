@@ -32,7 +32,6 @@ function createProductItemElement({ id: sku, title: name, thumbnail: image, pric
 // function getSkuFromProductItem(item) {
 // return item.querySelector('span.item__sku').innerText;
 // }
-
 // function cartItemClickListener(event) {
 //   // coloque seu código aqui
 // }
