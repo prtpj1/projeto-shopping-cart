@@ -1,4 +1,4 @@
-const SECTION = document.querySelector('.items');
+const ITEMS_LIST = document.querySelector('.items');
 const CART_LIST = document.querySelector('.cart__items');
 const CART_CONTAINER = document.querySelector('.cart__container');
 const EMPTY_CART_BUTTON = document.querySelector('.empty-cart');
@@ -14,6 +14,7 @@ function createCustomElement(element, className, innerText) {
   const e = document.createElement(element);
   e.className = className;
   e.innerText = innerText;
+  
   return e;
 }
 
@@ -83,13 +84,27 @@ function createCartItemElement({ sku, name, salePrice }) {
 
   return (li);
 }
+const createLoading = () => {
+  const imgSrc = 'https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif';
+  const loading = document.createElement('div');
+  loading.className = 'loading';
+  loading.innerText = 'carregando...';
+  
+  ITEMS_LIST.appendChild(loading);
+  loading.appendChild(createProductImageElement(imgSrc));
+};
+
+const hideLoading = () => {
+  ITEMS_LIST.firstElementChild.remove();
+};
 
 const productList = async () => {
   const products = await fetchProducts('computador');
-  // console.log(products);
   products.results.forEach((product) => {
-    SECTION.appendChild(createProductItemElement(product));
-  });
+  ITEMS_LIST.appendChild(createProductItemElement(product));
+});
+
+  hideLoading();
 };
 
 const addToCart = async (e) => {
@@ -106,8 +121,9 @@ const addToCart = async (e) => {
 };
 
 window.onload = () => {
-  productList();
+  createLoading();
+  setTimeout((productList), 2000);
   createTotalElement();
-  SECTION.addEventListener('click', addToCart);
+  ITEMS_LIST.addEventListener('click', addToCart);
   EMPTY_CART_BUTTON.addEventListener('click', emptyCart);
 };

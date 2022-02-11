@@ -175,14 +175,6 @@ body {
   border: 1px solid rgb(3, 52, 45);
 }
 
-/* .cart .cart__item {
-  margin: 15px 10px;
-  padding: 5px;
-  list-style: none;
-  box-shadow: 5px 5px 5px grey;
-  background-color: rgb(255, 255, 254);
-} */
-
 .empty-cart {
   width: 170px;
   height: 35px;
