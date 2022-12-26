@@ -27,6 +27,13 @@
 3. No navegador de sua preferência abra o arquivo `index.html` que está na raiz do projeto
 </br>
 </br>
+
+<h2>Demonstração da aplicação funcionando</h2>
+
+[Projeto Carrinho de Compras](https://app.netlify.com/sites/prtpj-shopping-cart/deploys)
+</br>
+</br>
+
 <strong>OBS:</strong></br>
 <i>Na época que fiz este projeto eu ainda não conhecia os Conventional Commits. </br>
   Somente a partir do módulo de BackEnd do curso da Trybe que aprendi e comecei a fazer commits melhores. </br>
