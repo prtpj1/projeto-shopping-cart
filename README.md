@@ -1,13 +1,29 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto Carrinho de Compras
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+  Fiz este projeto durante meu período de aprendizagem na Trybe que simula algumas funcionalidades de um carrinho de compras que todo site/loja virtual possui.
+  Os dados utilizados para a funcionalidade do carrinho são consumidos diretamente da API do MercadoLivre, através de requisições HTTP.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+
+<h2>Tecnologias Utilizadas</h2>
+
+<h3>FrontEnd:</h3>
+
+* JavaScript
+* HTML
+* CSS
+* Jest
+
+<h3>Como rodar a aplicação?</h3>
+
+1. Clone o repositório
+```
+git clone git@github.com:prtpj1/projeto-shopping-cart.git
+``` 
+2. Instale as dependências
+```
+npm install
+```
+3. No navegador de sua preferência
+```
+abra o arquivo index.html que está na raiz do projeto
+```
