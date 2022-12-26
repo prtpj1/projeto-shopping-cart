@@ -27,6 +27,7 @@
 3. No navegador de sua preferência abra o arquivo `index.html` que está na raiz do projeto
 </br>
 </br>
-**OBS:**
-</br>
-Na época eu ainda não conhecia os Conventional Commits. Somente a partir do módulo de BackEnd do curso da Trybe que aprendi e comecei a fazer commits melhores. Em breve estarei disponibilizando também os projetos dos módulos de BackEnd e Ciência da Computação
+<strong>OBS:</strong></br>
+<i>Na época que fiz este projeto eu ainda não conhecia os Conventional Commits. </br>
+  Somente a partir do módulo de BackEnd do curso da Trybe que aprendi e comecei a fazer commits melhores. </br>
+  Em breve estarei disponibilizando também os projetos dos módulos de BackEnd e Ciência da Computação</i>
