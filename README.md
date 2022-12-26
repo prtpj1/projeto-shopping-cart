@@ -18,15 +18,10 @@
 
 <h2>Como rodar a aplicação?</h2>
 
-1. Clone o repositório
-```
-git clone git@github.com:prtpj1/projeto-shopping-cart.git
-``` 
-2. Instale as dependências
-```
-npm install
-```
-3. No navegador de sua preferência
-```
-abra o arquivo index.html que está na raiz do projeto
-```
+1. Clone o repositório: </br>
+`git clone git@github.com:prtpj1/projeto-shopping-cart.git` 
+
+2. Instale as dependências: </br>
+`npm install`
+
+3. No navegador de sua preferência abra o arquivo `index.html` que está na raiz do projeto
