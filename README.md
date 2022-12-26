@@ -30,7 +30,7 @@
 
 <h2>Demonstração da aplicação funcionando</h2>
 
-[Projeto Carrinho de Compras](https://app.netlify.com/sites/prtpj-shopping-cart/deploys)
+[Projeto Carrinho de Compras](https://prtpj-shopping-cart.netlify.app/)
 </br>
 </br>
 
