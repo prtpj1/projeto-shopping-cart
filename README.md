@@ -7,14 +7,16 @@
 
 <h2>Tecnologias Utilizadas</h2>
 
-<h3>FrontEnd:</h3>
+<h4>FrontEnd:</h4>
 
 * JavaScript
 * HTML
 * CSS
 * Jest
 
-<h3>Como rodar a aplicação?</h3>
+
+
+<h2>Como rodar a aplicação?</h2>
 
 1. Clone o repositório
 ```
