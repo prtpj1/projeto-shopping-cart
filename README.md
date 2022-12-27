@@ -29,6 +29,10 @@
 </br>
 </br>
 
+<h2>Manual da API utilizada</h2>
+
+[MercadoLivre API Manual](https://developers.mercadolivre.com.br/pt_br/itens-e-buscas)
+
 <h2>Demonstração da aplicação funcionando</h2>
 
 [Projeto Carrinho de Compras](https://prtpj-shopping-cart.netlify.app/)
