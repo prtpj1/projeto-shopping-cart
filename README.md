@@ -14,6 +14,7 @@
 * CSS
 * Jest
 
+<img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/JavaScript2.png" width="50" height="50" alt="JavaScript" /><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/html2.png" width="50" height="50" alt="HTML" /><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/CSS2.png" width="50" height="50" alt="CSS" /><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Jest2.png" width="50" height="50" alt="Jest" />
 
 
 <h2>Como rodar a aplicação?</h2>
