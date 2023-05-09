@@ -1,4 +1,4 @@
-# Projeto Carrinho de Compras
+# 8º Projeto: Carrinho de Compras
 
   Fiz este projeto durante meu período de aprendizagem na Trybe que simula algumas funcionalidades de um carrinho de compras que todo site/loja virtual possui.
   Os dados utilizados para a funcionalidade do carrinho são consumidos diretamente da API do MercadoLivre, através de requisições HTTP.
