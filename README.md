@@ -23,12 +23,13 @@
 [Site do Projeto](https://prtpj-shopping-cart.netlify.app/)
 
 ## Como rodar a aplicação?
-
-1. Clone o repositório: </br>
+- Clone o repositório: </br>
 `git clone git@github.com:prtpj1/projeto-shopping-cart.git` 
-2. Instale as dependências: </br>
+- Acesse a pasta do projeto: <br>
+`cd projeto-shopping-cart`
+- Instale as dependências: </br>
 `npm install`
-3. No navegador de sua preferência abra o arquivo `index.html` que está na raiz do projeto
+- No navegador de sua preferência abra o arquivo `index.html` que está na raiz do projeto
 </br>
 
 ## Manual da API utilizada
