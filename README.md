@@ -1,4 +1,4 @@
-# 8º Projeto: Shopping Cart / Carrinho de Compras
+# 8º Projeto: Shopping Cart
 
 <p align="center">
 <img src="https://github.com/prtpj1/projeto-shopping-cart/blob/main/images/Preview.png" alt="Header" />
